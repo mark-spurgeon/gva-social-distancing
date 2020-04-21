@@ -1,0 +1,23 @@
+{
+  "name": "gva-social-distancing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html",
+    "convert": "./scripts/converter.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "fix-utf8": "^1.1.1",
+    "ol": "^6.3.1",
+    "proj4": "^2.6.1",
+    "reproject": "^1.2.5"
+  }
+}
